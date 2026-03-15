@@ -64,7 +64,9 @@ for the whole project when speaking aloud. In writing, the full
 ### installation
 
 ~~~
-$ go get github.com/glycerine/zygomys/cmd/zygo
+$ git clone https://github.com/glycerine/zygomys
+# make: read git version and bakes it into zygo. Then runs all tests.
+$ cd zygomys && make 
 ~~~
 
 ### not your average parentheses... features in zygomys 9.0.0 include
